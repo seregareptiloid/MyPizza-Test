@@ -6,7 +6,7 @@ using System.Text;
 
 namespace MyPizzaTest.Pages
 {
-   abstract class Page
+  public abstract class Page
     {
         protected IWebDriver driver;
         protected WebDriverWait wait;
