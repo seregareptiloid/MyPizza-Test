@@ -13,8 +13,7 @@ Scenario: Open pizza constructor
 
 Scenario: Construct pizza
 		Given "add to cart" button is on the page
-		When user selects "no green vegetable" check box
-		And adds product to cart
+		When user adds product to cart
 		Then constructor pop-up should disappear
 		And Italian pizza should appear at cart section
 
